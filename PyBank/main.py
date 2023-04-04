@@ -55,7 +55,7 @@ print(f"Greatest Increase in Profits: {Greatest['inMonth']} (${Greatest['Increas
 print(f"Greatest Decrease in Profits: {Greatest['deMonth']} (${Greatest['Decrease']})")
 
 
-analysis_txt = os.path.join("analysis", "analysis.txt")
+analysis_txt = os.path.join("analysis", "profit_loss_analysis.txt")
 with open(analysis_txt,"w") as txtfile:
     txtfile.write("Finacial Analysis\n")
     txtfile.write("-----------------------------\n")
